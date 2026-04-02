@@ -7,20 +7,17 @@ body {
   overflow: hidden;
   user-select: none;
 }
-
 #terminal {
   height: 80vh;
   overflow-y: auto;
   white-space: pre-wrap;
   padding-bottom: 40px;
 }
-
 #input-line {
   position: fixed;
   bottom: 40px;
   width: 100%;
 }
-
 #input {
   width: 90%;
   background: black;
@@ -31,7 +28,6 @@ body {
   caret-color: #00ff00;
   animation: blink-caret 1s step-end infinite;
 }
-
 #trace-container {
   position: fixed;
   bottom: 0;
@@ -44,7 +40,6 @@ body {
   align-items: center;
   color: #00ff00;
 }
-
 #bar {
   flex-grow: 1;
   height: 10px;
@@ -52,23 +47,19 @@ body {
   margin-left: 10px;
   border: 1px solid #00ff00;
 }
-
 #progress {
   height: 10px;
   width: 0%;
   background: #00ff00;
   transition: width 0.3s ease;
 }
-
 @keyframes blink-caret {
   from, to { caret-color: transparent; }
   50% { caret-color: #00ff00; }
 }
-
 .glitch {
   animation: glitch-effect 0.3s infinite;
 }
-
 @keyframes glitch-effect {
   0%, 100% { filter: none; }
   20% { filter: hue-rotate(20deg) saturate(150%) contrast(120%); }
