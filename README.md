@@ -1,9 +1,10 @@
 # 🖥️ CYRITO.exe
 
 > You are not supposed to be here...
-> > runing cyrito.exe
+> > running cyrito.exe
 
 > Initializing...
+
 > Bypassing firewall...
 
 > ACCESS GRANTED
