@@ -1,1 +1,56 @@
+body {
+background: black;
+color: #00ff00;
+font-family: monospace;
+margin: 0;
+padding: 10px;
+}
+
+#terminal {
+height: 80vh;
+overflow-y: auto;
+white-space: pre-wrap;
+}
+
+#input-line {
+position: fixed;
+bottom: 40px;
+width: 100%;
+}
+
+#input {
+background: black;
+border: none;
+color: #00ff00;
+outline: none;
+width: 90%;
+font-family: monospace;
+}
+
+#trace-container {
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+#bar {
+width: 100%;
+height: 10px;
+background: #002200;
+}
+
+#progress {
+height: 10px;
+width: 0%;
+background: #00ff00;
+transition: width 0.3s;
+}
+
+.blink {
+animation: blink 1s infinite;
+}
+
+@keyframes blink {
+50% { opacity: 0; }
+}
 
