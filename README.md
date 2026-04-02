@@ -1,6 +1,6 @@
 # 🖥️ CYRITO.exe
 
-> > running cyrito.exe
+> running cyrito.exe
 
 > Initializing...
 
